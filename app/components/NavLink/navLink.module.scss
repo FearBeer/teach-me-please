@@ -1,0 +1,26 @@
+.navLink {
+  text-decoration: none;
+  color: black;
+  border-radius: 25% 10%;
+  text-transform: capitalize;
+  min-width: 10%;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  transition: all 0.5s;
+  &:nth-child(2n) {
+    border-radius: 10% 25%;
+  }
+  &:hover {
+    background-color: black;
+    opacity: 0.5;
+    color: var(--bg-color-main);
+  }
+  &.active {
+    background-color: black;
+    color: var(--bg-color-main);
+    transition: all 0.5s;
+  }
+}

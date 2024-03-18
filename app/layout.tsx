@@ -3,6 +3,7 @@ import './globals.scss';
 import Header from './components/Header/header';
 import Image from 'next/image';
 import logo from '../public/images/logo.svg';
+import Navigation from './components/Navigation/navigation';
 
 export const metadata: Metadata = {
   title: 'Научи меня, пожалуйста',
@@ -23,11 +24,12 @@ export default function RootLayout({
             style={{
               width: '100px',
               height: '100%',
+              justifySelf: 'center',
             }}
             alt='logo'
             priority={true}
           />
-          <p>Navigation in the header</p>
+          <Navigation />
           <div>
             <p>Change theme in the header</p>
             <p>Login/Logout in the header</p>
