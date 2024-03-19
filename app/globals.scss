@@ -1,5 +1,16 @@
 :root {
   --bg-color-main: #e2e2e2;
+  --color-main: #202020;
+}
+
+:root[data-theme='light'] {
+  --bg-color-main: #e2e2e2;
+  --color-main: #202020;
+}
+
+:root[data-theme='dark'] {
+  --bg-color-main: #202020;
+  --color-main: #e2e2e2;
 }
 
 * {
@@ -10,4 +21,6 @@
 
 body {
   background-color: var(--bg-color-main);
+  color: var(--color-main);
+  transition: background-color 0.2s, color 0.5s;
 }

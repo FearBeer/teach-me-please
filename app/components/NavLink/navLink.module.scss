@@ -1,6 +1,6 @@
 .navLink {
   text-decoration: none;
-  color: black;
+  color: var(--color-main);
   border-radius: 25% 10%;
   text-transform: capitalize;
   min-width: 10%;
@@ -14,12 +14,12 @@
     border-radius: 10% 25%;
   }
   &:hover {
-    background-color: black;
+    background-color: var(--color-main);
     opacity: 0.8;
     color: var(--bg-color-main);
   }
   &.active {
-    background-color: black;
+    background-color: var(--color-main);
     color: var(--bg-color-main);
     transition: all 0.5s;
   }
