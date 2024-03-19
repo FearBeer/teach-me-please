@@ -1,0 +1,15 @@
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  justify-self: center;
+  font-size: 2rem;
+  .svgWrapper {
+    width: 70px;
+    height: 70px;
+    .svg {
+      fill: var(--color-main);
+      mix-blend-mode: normal;
+    }
+  }
+}

@@ -6,6 +6,7 @@ import logo from '../public/images/logo.svg';
 import Navigation from './components/Navigation/navigation';
 import ThemeChanger from './components/ThemeChanger/themeChanger';
 import Providers from './providers/Providers';
+import Logo from './components/Logo/logo';
 
 export const metadata: Metadata = {
   title: 'Научи меня, пожалуйста',
@@ -22,16 +23,7 @@ export default function RootLayout({
       <body>
         <Providers>
           <Header>
-            <Image
-              src={logo}
-              style={{
-                width: '100px',
-                height: '100%',
-                justifySelf: 'center',
-              }}
-              alt='logo'
-              priority={true}
-            />
+            <Logo />
             <Navigation />
             <div>
               <ThemeChanger></ThemeChanger>
