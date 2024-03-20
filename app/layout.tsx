@@ -1,8 +1,6 @@
 import type { Metadata } from 'next';
 import './globals.scss';
 import Header from './components/Header/header';
-import Image from 'next/image';
-import logo from '../public/images/logo.svg';
 import Navigation from './components/Navigation/navigation';
 import ThemeChanger from './components/ThemeChanger/themeChanger';
 import Providers from './providers/Providers';
