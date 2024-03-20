@@ -6,6 +6,7 @@ export default function Navigation() {
     { href: '/', name: 'home' },
     { href: '/about', name: 'about' },
     { href: '/contacts', name: 'contacts' },
+    { href: '/login', name: 'login' },
   ];
 
   return (
