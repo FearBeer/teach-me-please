@@ -8,10 +8,7 @@ function Header() {
     <header className={styles.header}>
       <Logo />
       <Navigation />
-      <div>
-        <ThemeChanger></ThemeChanger>
-        <p>Login/Logout in the header</p>
-      </div>
+      <ThemeChanger />
     </header>
   );
 }
